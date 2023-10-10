@@ -1,0 +1,90 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  box-sizing: border-box;
+}
+body{
+  background-color: black !important;
+  overflow-x: hidden;
+}
+.main{
+  background-image: url(image/IN-en-20230515-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+  height: 100vh;
+  top: 0;
+  
+}
+.nav-link{
+  border: 1px solid whitesmoke !important;
+  color: whitesmoke !important;
+}
+.mainer{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba( 0, 0, 0, 0.5),rgba( 0, 0, 0, 0.5));
+}
+.part_1{
+  color: whitesmoke;
+  z-index: 1;
+}
+.not2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 70px !important;
+}
+.not3{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 100px !important;
+}
+.not4{
+  margin-top: 130px;
+}
+.not4 .accordion-item{
+  border: none;
+}
+.accordion-button{
+  color: white !important;
+  background-color: rgb(50, 50, 50) !important;
+}
+.accordion-body{
+  color: white !important;
+  background-color:rgb(50, 50, 50) !important;
+}
+.acc{
+  height: 80px;
+}
+.footer-text a{
+  display: block !important;
+  color: grey;
+  line-height: 30px;
+}
+.form-control{
+  background-color: rgba(0, 0, 0, 0.187) !important;
+}
+.form-control::placeholder{
+  color: white !important;
+}
+.form-control input{
+  width: 50px !important;
+}
+.divider{
+  border: 3px solid rgb(50, 50, 50);
+}
+
+@media (max-width: 786px) {
+  .part_1 h1 {
+    font-size: 19px;
+  }
+  .btn4, .btn5 {
+    width: 95px;
+    border-radius: 5px;
+  }
+}
